@@ -4,8 +4,7 @@ pipeline {
         stage('Testing stage') {
             steps {
                 echo 'Testing'
-                sh 'source test.sh'
-                sh '_test_func'
+
             }
         }
         stage('Build') {
